@@ -1,6 +1,6 @@
 # gRPC client - Mutual SSL
 
-Ballerina supports mutual SSL, which is a certificate-based authentication process in which two parties (the client and server) authenticate each other by verifying the digital certificates. It ensures that both parties are assured of each other's identity.
+This example shows how to secure a client via mutual SSL. Ballerina supports mutual SSL, which is a certificate-based authentication process in which two parties (the client and server) authenticate each other by verifying the digital certificates. It ensures that both parties are assured of each other's identity. To do this, provide the relevant `grpc:ClientSecureSocket` configurations when creating the client. Use this when you want to secure the connection via mutual SSL.  
 
    ::: code grpc_client_mutual_ssl.bal :::
 
